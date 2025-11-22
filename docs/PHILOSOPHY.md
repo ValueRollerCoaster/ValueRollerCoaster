@@ -95,6 +95,12 @@ I made this open source because:
 
 I'm honest about what this does and doesn't do: it helps with preparation, enhances conversations, and supports work—but success still requires your expertise and judgment.
 
+**Two Real Scenarios:**
+
+**Internal Sales Team (No Field Experience)**: A customer service representative preparing for their first client call. They generate a persona, review the alignment matrix, and gain better understanding (trends, where the prospect is now, what could be done, SPIN methodology aspects) based on evidence from the prospect's website. The tool gives them a bit more confidence and structure—but they still need to listen actively, build rapport, and close the call or meeting. The tool doesn't replace sales skills; it helps them start from a better position.
+
+**External Sales Team (Experienced Managers)**: A seasoned account manager traveling between clients with many years of real experience. They use the tool to gain a fresh perspective, identify new alignment opportunities in existing accounts, and prepare for competitive situations. It saves hours of manual research—but their years of relationship-building, industry knowledge, and negotiation skills are what actually close deals. The tool enhances their process; it doesn't replace their expertise.
+
 ## The Bigger Picture
 
 This isn't just about buyer personas or sales tools. It's about:

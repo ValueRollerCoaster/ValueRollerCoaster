@@ -66,6 +66,7 @@ The platform addresses a critical challenge in B2B sales: **understanding your p
 - **Structured Framework**: Organized by subcategories and components
 - **AI-Powered Benefits**: Automatic customer benefit generation
 - **Visual Analytics**: Interactive sunburst charts for value distribution
+- **Customizable Structure**: The current framework reflects experience with large B2B production companies, but you can modify categories, subcategories, and components to match your industry or business model (see [Categories Guide](CATEGORIES_GUIDE.md))
 
 ### 🎯 **7-Step Enhanced Persona Generation with Sonar Validation**
 1. 🔍 Dual-Model Website Analysis
@@ -158,6 +159,7 @@ The platform addresses a critical challenge in B2B sales: **understanding your p
      - **Business Value**: Cost Savings, Revenue Growth, Efficiency Gains
      - **Strategic Value**: Competitive Advantage, Risk Mitigation, Partnership Development
      - **After Sales Value**: Customer Support, Maintenance, User Experience
+   - **Note**: This structure reflects experience with large B2B production companies. You can customize it to match your industry or business model (see [Categories Guide](CATEGORIES_GUIDE.md))
    - **Option**: Click "Generate Initial Value Components" to auto-populate based on company profile
    - **Requirement**: At least 90% completion required for persona generation
 

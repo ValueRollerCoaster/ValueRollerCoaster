@@ -20,7 +20,7 @@
 ## 📖 Table of Contents
 
 - [What is Value Rollercoaster?](#-what-is-value-rollercoaster)
-- [Organizational Benefits](#-organizational-benefits)
+- [Organizational Benefits](#organizational-benefits)
 - [Key Features](#-key-features)
 - [Why Value Rollercoaster?](#-why-value-rollercoaster)
 - [Quick Start](#-quick-start)
@@ -41,7 +41,7 @@ Most organizations have values—on the wall, in handbooks, on websites. But whe
 Value Rollercoaster solves this through a core transformation process:
 - **Individual perspectives** → Each employee interprets values from their role
 - **AI transformation** → Converts diverse inputs into customer-focused benefits
-- **Customer value visibility** → Everyone sees how their work creates customer value
+- **Customer value visibility** → Everyone sees how their work creates customer value (customer benefit)
 - **Practical applications** → Use transformed values for better customer conversations and prospect understanding
 
 ### 💼 Organizational Benefits
@@ -110,6 +110,8 @@ Once your value components are defined (90% completion required), the platform u
 </div>
 
 ### 🏗️ Value Components Structure
+
+> **Note on Structure**: The current 4-category framework (Technical, Business, Strategic, After Sales) reflects experience with large B2B production companies. **The structure is fully customizable**—you can modify categories, subcategories, and components to match your industry, company type, or business model. This flexibility is one of the benefits of open-source software.
 
 The platform organizes your company values into a structured framework with **4 main categories**, each containing **subcategories** with specific components:
 
@@ -300,6 +302,8 @@ See exactly how your values match prospect needs with match scores and evidence.
 - 💰 **Low Cost**: Only API token costs, no expensive enterprise licenses
 - 🔒 **Secure**: Deploy on your infrastructure with full control
 - 🎨 **Customizable**: Adapt to your organization's specific needs
+  - **Value Structure**: The 4-category framework is based on large B2B production company experience, but you can modify categories, subcategories, and components to match your industry or business model
+  - **Full Flexibility**: Change the structure in `app/categories.py` to reflect your organization's unique value framework
 
 ---
 
@@ -331,6 +335,8 @@ This platform helps you recognize and leverage these moments.
 - **Sonar (Perplexity)**: Quality validation to prevent hallucinations
 
 **9 quality checkpoints** throughout the process ensure accuracy and reliability—not generic outputs, but evidence-based insights.
+
+> 💭 **Want to understand the story behind Value Rollercoaster?** Read about [the personal perspective, motivations, and philosophy](docs/PHILOSOPHY.md) that inspired this project—from making values actionable tools to demonstrating practical AI usage.
 
 ---
 
@@ -371,7 +377,7 @@ streamlit run app.py
 3. **See customer benefits** - AI transforms your inputs into customer-focused value
 4. **Use transformed values** - Generate personas, align with prospects, have better conversations
 
-> 📚 **For detailed setup instructions, see [Deployment Guide](docs/IT/DEPLOYMENT_GUIDE.md)**
+> 📚 **For detailed setup instructions, see [Deployment Guide](docs/FOR%20IT%20DEPARTMENT/DEPLOYMENT_GUIDE.md)**
 
 ---
 
@@ -381,36 +387,39 @@ streamlit run app.py
 
 Choose the guide that fits your role:
 
-#### 👔 [For Sales Teams](docs/SALES/FOR_SALES_TEAMS.md)
-- **Quick Introduction**: [FOR_SALES_TEAMS.md](docs/SALES/FOR_SALES_TEAMS.md)
-- **Complete Guide**: [SALES_COMPLETE_GUIDE.md](docs/SALES/SALES_COMPLETE_GUIDE.md)
+#### 👑 [For Executive Leadership](docs/FOR%20EXECUTIVE%20LEADERSHIP/FOR_EXECUTIVE_LEADERSHIP.md)
+- **Quick Introduction**: [FOR_EXECUTIVE_LEADERSHIP.md](docs/FOR%20EXECUTIVE%20LEADERSHIP/FOR_EXECUTIVE_LEADERSHIP.md)
+
+**Focus**: Transform company values into competitive advantages. Maximize ROI on existing investments, enable organizational alignment, and position your organization for competitive success.
+
+#### 👔 [For Sales Teams](docs/FOR%20SALES%20DEPARTMENT/FOR_SALES_TEAMS.md)
+- **Quick Introduction**: [FOR_SALES_TEAMS.md](docs/FOR%20SALES%20DEPARTMENT/FOR_SALES_TEAMS.md)
+- **Complete Guide**: [SALES_COMPLETE_GUIDE.md](docs/FOR%20SALES%20DEPARTMENT/SALES_COMPLETE_GUIDE.md)
 
 **Focus**: Living company values through sales conversations. This is a helpful tool that supports your work—not a replacement for your sales skills.
 
-#### 👥 [For HR Teams](docs/HR/FOR_HR_TEAMS.md)
-- **Quick Introduction**: [FOR_HR_TEAMS.md](docs/HR/FOR_HR_TEAMS.md)
-- **Complete Guide**: [HR_COMPLETE_GUIDE.md](docs/HR/HR_COMPLETE_GUIDE.md)
+#### 👥 [For HR Teams](docs/FOR%20HR%20DEPARTMENT/FOR_HR_TEAMS.md)
+- **Quick Introduction**: [FOR_HR_TEAMS.md](docs/FOR%20HR%20DEPARTMENT/FOR_HR_TEAMS.md)
+- **Complete Guide**: [HR_COMPLETE_GUIDE.md](docs/FOR%20HR%20DEPARTMENT/HR_COMPLETE_GUIDE.md)
 
 **Focus**: Helping coworkers live company values through internal integration. **Not for recruitment**—for helping employees understand and apply company values.
 
-#### 💻 [For IT Teams](docs/IT/FOR_IT_TEAMS.md)
-- **Quick Introduction**: [FOR_IT_TEAMS.md](docs/IT/FOR_IT_TEAMS.md)
-- **Complete Guide**: [IT_COMPLETE_GUIDE.md](docs/IT/IT_COMPLETE_GUIDE.md)
-- **Technical Documentation**: [README_TECHNICAL.md](docs/IT/README_TECHNICAL.md)
+#### 💻 [For IT Teams](docs/FOR%20IT%20DEPARTMENT/FOR_IT_TEAMS.md)
+- **Quick Introduction**: [FOR_IT_TEAMS.md](docs/FOR%20IT%20DEPARTMENT/FOR_IT_TEAMS.md)
+- **Technical Documentation**: [README_TECHNICAL.md](docs/FOR%20IT%20DEPARTMENT/README_TECHNICAL.md)
 
 **Focus**: Enabling coworkers to live values through technology. **Open source, low cost** (only API tokens), demonstrates IT as value-adding department.
 
 ### Technical & Deployment
 
-- **[Deployment Guide](docs/IT/DEPLOYMENT_GUIDE.md)**: Complete deployment instructions for all scenarios
-- **[Deployment Quick Reference](docs/IT/DEPLOYMENT_QUICK_REFERENCE.md)**: Quick decision guide and commands
-- **[Technical Documentation](docs/IT/README_TECHNICAL.md)**: System architecture, API documentation, development guide
+- **[Deployment Guide](docs/FOR%20IT%20DEPARTMENT/DEPLOYMENT_GUIDE.md)**: Complete deployment instructions for all scenarios
+- **[Technical Documentation](docs/FOR%20IT%20DEPARTMENT/README_TECHNICAL.md)**: System architecture, API documentation, development guide
 
 ### Additional Resources
 
 - **[Persona Generation Prompts](docs/Usage/ALL_PERSONA_GENERATION_PROMPTS.md)**: All prompts used in persona generation
 - **[Admin Guide](docs/Usage/Admin/ADMIN_GUIDE.md)**: Administrator guide
-- **[Token Limits Guide](docs/IT/TOKEN_LIMITS_GUIDE.md)**: Understanding API usage and costs
+- **[Token Limits Guide](docs/FOR%20IT%20DEPARTMENT/TOKEN_LIMITS_GUIDE.md)**: Understanding API usage and costs
 - **[Philosophy & Vision](docs/PHILOSOPHY.md)**: The story behind Value Rollercoaster
 
 ---
@@ -440,6 +449,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with [Streamlit](https://streamlit.io/)
 - Powered by Google Gemini, OpenAI ChatGPT, and Perplexity Sonar
 - Vector database powered by [Qdrant](https://qdrant.tech/)
+- Co-created with [Cursor](https://cursor.com/) AI assistance
 
 ---
 

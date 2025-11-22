@@ -6,6 +6,19 @@
 
 **By proposing this solution, IT shows it understands the bigger picture**: how values work, how everyone contributes to sales, and how technology enables organizational alignment—not just technical implementation.
 
+### The Reality: IT Infrastructure Is Already a Cost
+
+In large organizations, **IT infrastructure, tools, and systems represent significant ongoing costs**—licenses, infrastructure, maintenance, support, and overhead. These costs exist whether the technology is fully enabling business value or not.
+
+**The opportunity**: Since IT infrastructure is already costing the company, let's help both the organization and IT make the best of it. Value Rollercoaster helps you:
+
+- **Maximize existing IT value** by providing a tool that enables business outcomes without adding expensive enterprise licenses
+- **Demonstrate IT's strategic contribution** by showing how technology directly enables customer value and sales success
+- **Transform IT from cost center to value center** by connecting technology investments to measurable business outcomes
+- **Show cost-conscious leadership** through open-source solutions that deliver enterprise value at a fraction of the cost
+
+This isn't about adding more IT costs—it's about **getting more value from IT investments that already exist** and positioning IT as a strategic enabler, not just a cost center.
+
 ## 💡 The Core Idea
 
 ### Your Values, Your Way
@@ -135,6 +148,8 @@ This isn't just a tool—it's a way for IT to **enable coworkers to live company
 **By proposing this solution, IT demonstrates it understands the bigger picture**—not just technical implementation, but how technology enables organizational alignment, values living, and sales contribution.
 
 **IT's strategic value**: By enabling values living through cost-effective, open-source technology, IT demonstrates financial responsibility, shows strategic thinking, and positions itself as a value-adding department that understands the bigger business picture.
+
+**Maximizing IT ROI**: Since IT infrastructure and tools are already significant costs to the organization, Value Rollercoaster helps you maximize the return on those investments. By providing a solution that enables business outcomes without expensive enterprise licenses, you're demonstrating how IT can deliver strategic value while being cost-conscious—turning existing IT costs into greater business value and positioning IT as a strategic enabler, not just a cost center.
 
 **Open source + Low cost + Strategic understanding = IT as value-adding strategic partner**
 
