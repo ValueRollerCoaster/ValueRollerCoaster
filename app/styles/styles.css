@@ -1,0 +1,386 @@
+/* Main content styling */
+.main {
+    padding: 2rem;
+    background-color: #f8fafd;
+}
+
+/* Double the margin after page titles across the entire app */
+.stMarkdown h1 {
+    margin-bottom: 4rem !important;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+/* Sidebar menu items */
+.sidebar-menu-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    background-color: #f0f2f6;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu-item:hover {
+    background-color: #e6e9ef;
+    transform: translateX(5px);
+}
+
+.sidebar-menu-item.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Icons in sidebar */
+.sidebar-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Content sections */
+.content-section {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f0f2f6; /* A light grey */
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 100%;
+    color: #31333F;
+}
+
+.stButton>button:hover {
+    border-color: #3d8bfd;
+}
+
+.stButton>button:focus, .stButton>button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Sidebar button styling - ensure it's not affected by save button styling */
+.sidebar-button-container .stButton>button,
+div[data-testid="stButton"] button:not(:has(span:contains('Save'))) {
+    background-color: transparent !important;
+    border: none !important;
+    text-align: left !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Active sidebar button styling */
+.sidebar-button-container.active .stButton>button {
+    background-color: #4CAF50; /* A pleasant green */
+    color: white;
+    font-weight: bold;
+}
+.sidebar-button-container.active .stButton>button:hover {
+    background-color: #45a049; /* A slightly darker green for hover */
+}
+
+/* Specific component styling */
+.main-tabs .stTabs [data-baseweb="tab-list"] {
+    gap: 24px;
+}
+
+/* Value component cards */
+.value-component {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.value-component:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.value-component-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.value-component-content {
+    margin-left: 1rem;
+    color: #34495e;
+}
+
+/* --- MAIN TABS STYLING --- */
+section.main > div > div > div > div[data-testid^="stTabs"] > div[role="tablist"] {
+    margin-bottom: 2rem !important;
+    background: #ffffff !important;
+    border-radius: 1rem 1rem 0 0 !important;
+    padding: 0.8rem 1.5rem !important;
+    border-bottom: 2px solid #e0e0e0 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+}
+
+/* Main tab content area */
+div[data-testid^="stTabs"] > div[data-baseweb="tab-content"] {
+    background-color: #ffffff !important;
+    border-radius: 0 0 1rem 1rem !important;
+    padding: 2rem !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Main category title section */
+.stMarkdown h3, .stMarkdown h3 + em {
+    background: #f8fafd !important;
+    border-radius: 0.8rem !important;
+    padding: 1.5rem 2rem !important;
+    margin-bottom: 2rem !important;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+/* --- SORTABLE TABLE HEADERS --- */
+/* Style for sortable column header buttons */
+div[data-testid="stButton"] button:has(span:contains("Company Name")),
+div[data-testid="stButton"] button:has(span:contains("Website")),
+div[data-testid="stButton"] button:has(span:contains("Industry")),
+div[data-testid="stButton"] button:has(span:contains("Scan Date")) {
+    background-color: #f8fafd !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0.5rem !important;
+    padding: 0.5rem 1rem !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    text-align: center !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+/* Hover effect for sortable headers */
+div[data-testid="stButton"] button:has(span:contains("Company Name")):hover,
+div[data-testid="stButton"] button:has(span:contains("Website")):hover,
+div[data-testid="stButton"] button:has(span:contains("Industry")):hover,
+div[data-testid="stButton"] button:has(span:contains("Scan Date")):hover {
+    background-color: #e3f2fd !important;
+    border-color: #2196f3 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.15) !important;
+}
+
+/* Active sort indicator styling */
+div[data-testid="stButton"] button:has(span:contains("🔼")),
+div[data-testid="stButton"] button:has(span:contains("🔽")) {
+    background-color: #e8f5e8 !important;
+    border-color: #4caf50 !important;
+    color: #2e7d32 !important;
+    font-weight: 700 !important;
+}
+
+/* Sort indicator emoji styling */
+div[data-testid="stButton"] button span:contains("🔼"),
+div[data-testid="stButton"] button span:contains("🔽") {
+    font-size: 0.9em !important;
+    margin-left: 0.3rem !important;
+}
+
+/* --- SUBTABS STYLING --- */
+section.main > div > div > div > div[data-testid^="stTabs"] div[data-testid^="stTabs"] > div[role="tablist"] {
+    margin: 1.5rem 0 !important;
+    background: #f8fafd !important;
+    border-radius: 0.8rem 0.8rem 0 0 !important;
+    padding: 0.5rem 1rem !important;
+    border-bottom: 2px solid #e0e0e0 !important;
+}
+
+/* Subtab content area */
+div[data-testid^="stTabs"] div[data-testid^="stTabs"] > div[data-baseweb="tab-content"] {
+    background-color: #ffffff !important;
+    border-radius: 0 0 0.8rem 0.8rem !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Subcategory headers */
+.stMarkdown h4, .stMarkdown h4 ~ div {
+    background: #ffffff !important;
+    border-radius: 0.8rem !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+/* Technical Value specific styling */
+div[data-testid^="stTabs"] div[data-testid^="stTabs"] > div[data-baseweb="tab-content"]:has(h4:contains("Technical Value")) {
+    background-color: #f8fff8 !important;
+    border: 1px solid #e8f5e9 !important;
+}
+
+/* Save button styling - removed to avoid conflicts with inline styling */
+
+/* Save button styling - specific class (backup) */
+.save-button-custom {
+    width: 100% !important;
+    display: block !important;
+    margin: 1rem 0 !important;
+    background: linear-gradient(135deg, #90EE90, #7CFC00) !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px 24px !important;
+    border-radius: 8px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+.save-button-custom:hover {
+    background: linear-gradient(135deg, #7CFC00, #32CD32) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15) !important;
+}
+
+.save-button-custom:disabled {
+    background: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.customer-benefit-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+} 
+
+/* --- EXPANDER TITLE STYLING --- */
+/* Make expander titles larger and more prominent with enhanced visual hierarchy */
+.stExpander > div > div > div > div {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    background: linear-gradient(135deg, #f8fafd, #e3f2fd) !important;
+    border-radius: 0.5rem !important;
+    padding: 0.8rem 1rem !important;
+    margin: 0.5rem 0 !important;
+    border-left: 4px solid #2196f3 !important;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+.stExpander > div > div > div > div:hover {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb) !important;
+    transform: translateX(3px) !important;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.2) !important;
+}
+
+/* Specific styling for component expander titles with strong tags */
+.stExpander > div > div > div > div:has(strong) {
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: #1a237e !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+    background: linear-gradient(135deg, #e8f5e8, #c8e6c9) !important;
+    border-left-color: #4caf50 !important;
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.1) !important;
+}
+
+.stExpander > div > div > div > div:has(strong):hover {
+    background: linear-gradient(135deg, #c8e6c9, #a5d6a7) !important;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2) !important;
+}
+
+/* --- RIGHT COLUMN ALIGNMENT STYLING --- */
+/* Simple and effective right column alignment using Streamlit's column structure */
+div[data-testid="column"]:nth-child(2) .stMarkdown h3,
+div[data-testid="column"]:nth-child(2) .stMarkdown div,
+div[data-testid="column"]:nth-child(2) .stMarkdown p {
+    text-align: right !important;
+    padding-right: 1rem !important;
+}
+
+/* Target right column content more specifically */
+div[data-testid="column"]:nth-child(2) .stMarkdown {
+    text-align: right !important;
+    padding-right: 1rem !important;
+}
+
+/* Right column save button alignment */
+div[data-testid="column"]:nth-child(2) .stButton {
+    text-align: right !important;
+    padding-right: 1rem !important;
+}
+
+/* Alternative approach using Streamlit's internal column classes */
+div[data-testid="column"]:last-child .stMarkdown h3,
+div[data-testid="column"]:last-child .stMarkdown div,
+div[data-testid="column"]:last-child .stMarkdown p {
+    text-align: right !important;
+    padding-right: 1rem !important;
+}
+
+/* Target the right column specifically for all content */
+div[data-testid="column"]:nth-child(2) {
+    text-align: right !important;
+}
+
+/* Ensure right column headers are right-aligned */
+div[data-testid="column"]:nth-child(2) h3,
+div[data-testid="column"]:nth-child(2) h4 {
+    text-align: right !important;
+    padding-right: 1rem !important;
+} 
+
+/* --- THREE COLUMN LAYOUT STYLING --- */
+/* Ensure proper spacing between columns */
+div[data-testid="column"] {
+    padding: 0 0.5rem !important;
+}
+
+/* Middle column styling for visual separation */
+div[data-testid="column"]:nth-child(2) {
+    border-left: 1px solid #e0e0e0 !important;
+    border-right: 1px solid #e0e0e0 !important;
+    background: linear-gradient(180deg, #f8fafd, #e3f2fd) !important;
+}
+
+/* Right column content styling */
+div[data-testid="column"]:nth-child(3) .stMarkdown h3,
+div[data-testid="column"]:nth-child(3) .stMarkdown div,
+div[data-testid="column"]:nth-child(3) .stMarkdown p {
+    text-align: left !important;
+    padding-left: 1rem !important;
+}
+
+/* Right column summary boxes styling */
+div[data-testid="column"]:nth-child(3) .stAlert {
+    margin: 0.5rem 0 !important;
+    border-radius: 0.5rem !important;
+}
+
+/* Middle column separator line */
+div[data-testid="column"]:nth-child(2) hr {
+    border: none !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, transparent, #2196f3, transparent) !important;
+    margin: 1rem 0 !important;
+} 

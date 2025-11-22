@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Buyer Persona",
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "year_established": {"type": ["integer", "null"]},
+        "headquarters_location": {"type": "string"},
+        "website": {"type": "string"}
+      }
+    },
+    "product_range": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "services": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "pain_points": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "goals": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "value_drivers": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "value_signals": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "likely_objections": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "chain_of_thought": {"type": "string"},
+    "industry_context": {
+      "type": "object",
+      "properties": {
+        "summary": {"type": "string", "description": "A concise, factual, and UI-friendly summary of the customer's business landscape or industry."}
+      },
+      "required": ["summary"]
+    }
+  },
+  "required": [
+    "pain_points",
+    "goals",
+    "value_drivers",
+    "value_signals",
+    "likely_objections",
+    "chain_of_thought",
+    "industry_context"
+  ]
+} 

@@ -1,0 +1,428 @@
+# 🎢 Value Rollercoaster
+
+<div align="center">
+
+**Transform company values into actionable tools that drive better customer conversations**
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.47+-red?style=for-the-badge)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge)](https://opensource.org/)
+
+**Help your coworkers live company values through practical AI-powered value alignment**
+
+[Quick Start](#-quick-start) • [Documentation](#-documentation) • [Features](#-key-features) • [Contributing](#-contributing)
+
+</div>
+
+---
+
+## 📖 Table of Contents
+
+- [What is Value Rollercoaster?](#-what-is-value-rollercoaster)
+- [Organizational Benefits](#-organizational-benefits)
+- [Key Features](#-key-features)
+- [Why Value Rollercoaster?](#-why-value-rollercoaster)
+- [Quick Start](#-quick-start)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🎯 What is Value Rollercoaster?
+
+**Value Rollercoaster** is an open-source platform that helps organizations **let their coworkers live company values** by transforming values from inspiring principles into tangible, actionable tools used in daily work. Always having the customer in focus.
+
+### The Problem It Solves
+
+Most organizations have values—on the wall, in handbooks, on websites. But when you're in a sales call, talking to a customer, or making a decision, **could those values be more helpful?**
+
+Value Rollercoaster transforms abstract values into:
+- **Tools for understanding customers** better
+- **Tools for having better conversations** with prospects
+- **Tools for seeing how your work creates value**
+- **Tools for connecting what you do** to what customers need
+
+### 💼 Organizational Benefits
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤝 Values Integration
+Transform abstract company values into concrete, actionable tools that every team member can use daily. Values move from posters to practice, improving alignment across departments.
+
+### 🤖 AI as Practical Support
+Demonstrate to your organization that AI can genuinely support work—not replace it. Show employees how AI enhances their expertise, providing evidence-based insights while they maintain control and judgment.
+
+</td>
+<td width="50%">
+
+### 👥 Everyone Contributes to Sales
+Make it visible that every employee contributes to sales through their work. Customer support, technical teams, and account managers all see how their expertise connects to customer value—building a unified sales culture across the organization.
+
+### 📈 Competitive Advantage
+Stand out by showing prospects exactly how your values match their needs. The value alignment matrix provides clear evidence of fit, making your proposals more compelling and differentiated.
+
+</td>
+</tr>
+</table>
+
+### How It Works
+
+The platform uses **three AI models working together** (Google Gemini, OpenAI ChatGPT, and Perplexity Sonar) with quality gates to analyze company websites and match them with your organization's value components. The result: **better prospect understanding** and a practical example of using values + AI to create value.
+
+> **Note:** This is a helpful tool that supports your work—not a solution for everything. You still need your expertise, relationships, and judgment. This tool enhances your process but doesn't replace it.
+
+### 📸 See It In Action
+
+<div align="center">
+
+![Value Overview Dashboard](docs/Screenshots/overview.jpg)
+
+*Company Value Overview showing the basic structure*
+
+</div>
+
+### 🏗️ Value Components Structure
+
+The platform organizes your company values into a structured framework with **4 main categories**, each containing **subcategories** with specific components:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    Value Components Framework                            │
+│                                                                           │
+│  ┌──────────────────────────────────────────────────────────────────┐  │
+│  │  🛠️ Technical Value                                               │  │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │  │
+│  │  │   Quality     │  │ Performance  │  │  Innovation   │          │  │
+│  │  │  • Certificates│  │  • Speed    │  │  • Unique     │          │  │
+│  │  │  • Compliance │  │  • Reliability│  │    Features   │          │  │
+│  │  │  • Testing    │  │  • Scalability│  │  • R&D        │          │  │
+│  │  └──────────────┘  └──────────────┘  │  • Future-Proof│          │  │
+│  │                                        └──────────────┘          │  │
+│  │  ┌──────────────┐                                                │  │
+│  │  │ Sustainability│                                                │  │
+│  │  │  • Environment│                                                │  │
+│  │  │  • Ethics     │                                                │  │
+│  │  │  • Circular   │                                                │  │
+│  │  └──────────────┘                                                │  │
+│  └──────────────────────────────────────────────────────────────────┘  │
+│                                                                           │
+│  ┌──────────────────────────────────────────────────────────────────┐  │
+│  │  💰 Business Value                                                 │  │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │  │
+│  │  │ Cost Savings  │  │Revenue Growth│  │Efficiency Gains│          │  │
+│  │  │  • Operational│  │  • Sales    │  │  • Process    │          │  │
+│  │  │  • Maintenance│  │  • Markets   │  │  • Resources  │          │  │
+│  │  │  • Energy     │  │  • Time-to- │  │  • Automation │          │  │
+│  │  └──────────────┘  │    Market   │  └──────────────┘          │  │
+│  │                     └──────────────┘                            │  │
+│  └──────────────────────────────────────────────────────────────────┘  │
+│                                                                           │
+│  ┌──────────────────────────────────────────────────────────────────┐  │
+│  │  🎯 Strategic Value                                                │  │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │  │
+│  │  │ Competitive   │  │ Risk         │  │ Partnership  │          │  │
+│  │  │ Advantage     │  │ Mitigation   │  │ Development  │          │  │
+│  │  │  • Market     │  │  • Security  │  │  • Co-Creation│          │  │
+│  │  │    Different. │  │  • Continuity│  │  • Roadmap    │          │  │
+│  │  │  • Brand      │  └──────────────┘  │  • Relations  │          │  │
+│  │  └──────────────┘                     └──────────────┘          │  │
+│  └──────────────────────────────────────────────────────────────────┘  │
+│                                                                           │
+│  ┌──────────────────────────────────────────────────────────────────┐  │
+│  │  🤝 After Sales Value                                              │  │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │  │
+│  │  │ Customer      │  │ Maintenance │  │ User Exp. & │            │  │
+│  │  │ Support      │  │ & Updates   │  │ Integration  │            │  │
+│  │  │  • Availability│  │  • Updates │  │  • Ease of   │            │  │
+│  │  │  • Training   │  │  • Proactive│  │    Use       │            │  │
+│  │  └──────────────┘  └──────────────┘  │  • Integration│            │  │
+│  │                                        │  • Adoption  │            │  │
+│  │                                        └──────────────┘            │  │
+│  └──────────────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**How It Works:**
+- **Define Components**: Fill in value components across all 4 categories
+- **AI Enhancement**: AI automatically generates customer-focused benefits from your inputs
+- **Customize Importance**: Adjust weights and ratings to reflect your priorities
+- **90% Completion Required**: For buyer persona generation
+- **Match with Prospects**: These components are matched against prospect needs during persona generation
+
+### 🔄 Complete Workflow
+
+The platform transforms a prospect's website into actionable insights through a complete setup and analysis process:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              Phase 1: Admin Setup (One-Time)                 │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Company    │  │      AI       │  │   Company     │     │
+│  │   Profile     │  │  Framework    │  │   Website     │     │
+│  │  (Business,   │  │  (Adjust if   │  │  (URL &       │     │
+│  │   Market,     │  │   needed)     │  │   Scrape)     │     │
+│  │   Branding)   │  │               │  │               │     │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│         Phase 2: Value Components Setup (All Users)          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │  Technical   │  │   Business    │  │  Strategic   │     │
+│  │    Value     │  │    Value      │  │    Value     │     │
+│  │              │  │               │  │              │     │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+│  ┌──────────────┐                                          │
+│  │ After Sales  │  • Fill all categories                   │
+│  │    Value     │  • AI generates customer benefits        │
+│  └──────────────┘  • Adjust importance                     │
+│                    • Save (90% completion required)        │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│              Phase 3: Persona Generation Input               │
+│  ┌──────────────┐              ┌──────────────┐            │
+│  │   Website    │              │    Value     │            │
+│  │     URL      │              │  Components │            │
+│  │  (Prospect)  │              │   (Saved)   │            │
+│  └──────────────┘              └──────────────┘            │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│              Step 1-2: AI Analysis Layer                     │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Google     │  │   OpenAI     │  │    Sonar     │     │
+│  │   Gemini     │  │   ChatGPT    │  │  Validation  │     │
+│  │  (Analysis)  │  │  (Insights)  │  │  (Quality)   │     │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│         Step 3: Market Intelligence Layer                    │
+│  ┌──────────────┐              ┌──────────────┐            │
+│  │   Eurostat   │              │    Web       │            │
+│  │     API      │              │   Search     │            │
+│  └──────────────┘              └──────────────┘            │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│         Step 4: Value Alignment Workflow                     │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Profiler   │  │ Hypothesizer │  │    Final     │     │
+│  │    Agent     │  │    Agent     │  │   Aligner    │     │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│         Step 5-7: Persona Synthesis & QA                     │
+│  ┌──────────────┐              ┌──────────────┐            │
+│  │   Creative   │              │   Quality     │            │
+│  │   Elements   │              │  Assurance    │            │
+│  │  Generation  │              │  (9 Gates)   │            │
+│  └──────────────┘              └──────────────┘            │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+┌──────────────────────▼──────────────────────────────────────┐
+│                    Output Layer                              │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │    Buyer     │  │    Value     │  │  Evidence-   │     │
+│  │   Persona    │  │  Alignment   │  │   Based      │     │
+│  │  (Insights)  │  │   Matrix     │  │ Recommendations│   │
+│  └──────────────┘  └──────────────┘  └──────────────┘     │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Workflow Phases:**
+- **Phase 1 (Admin)**: Company Profile → AI Framework → Company Website setup
+- **Phase 2 (All Users)**: Define value components across 4 categories → AI generates benefits → Adjust importance → Save (90% required)
+- **Phase 3-7**: Persona generation with 7-step AI analysis and 9 quality checkpoints
+
+---
+
+## ✨ Key Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 Value Components System
+Define your organization's values across 4 categories (Technical, Business, Strategic, After Sales) with customizable components that reflect how different departments interpret values.
+
+### 🤖 AI-Powered Persona Generation
+Analyze prospect websites and match them with your values. Generate comprehensive buyer personas in 5-8 minutes with evidence-based insights.
+
+</td>
+<td width="50%">
+
+### 📊 Value Alignment Matrix
+See exactly how your values match prospect needs with match scores and evidence. Visualize alignment opportunities at a glance.
+
+### ✅ Quality Gates
+9 validation checkpoints prevent hallucinations and ensure accuracy. Get confidence scores and evidence for every insight.
+
+</td>
+</tr>
+</table>
+
+### Additional Benefits
+
+- 🔓 **Open Source**: Full source code access, customizable, no licensing fees
+- 💰 **Low Cost**: Only API token costs, no expensive enterprise licenses
+- 🔒 **Secure**: Deploy on your infrastructure with full control
+- 🎨 **Customizable**: Adapt to your organization's specific needs
+
+---
+
+## 💡 Why Value Rollercoaster?
+
+### Your Values, Your Way
+
+**Every team member interprets company values differently**, and that's a strength:
+- Sales sees "Innovation" as new solutions for customers
+- R&D sees it as cutting-edge research
+- IT sees it as technical excellence
+
+This diversity makes values richer and more applicable. Value Rollercoaster helps you see these different interpretations and use them effectively.
+
+### Everyone is Selling
+
+You might not think of yourself as a salesperson, but **every customer interaction is a sales moment**:
+- Customer support resolving issues → selling trust and reliability
+- Technical teams explaining features → selling expertise and innovation
+- Account managers building relationships → selling partnership and value
+
+This platform helps you recognize and leverage these moments.
+
+### AI as Creative Support
+
+**Three AI models with quality gates** demonstrate practical, safe AI usage:
+- **Google Gemini**: Structured analysis and data validation
+- **OpenAI ChatGPT**: Creative insights and alternative perspectives
+- **Sonar (Perplexity)**: Quality validation to prevent hallucinations
+
+**9 quality checkpoints** throughout the process ensure accuracy and reliability—not generic outputs, but evidence-based insights.
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Python 3.8+**
+- **API Keys**:
+  - Google Gemini API key (required)
+  - OpenAI API key (required)
+  - Perplexity Sonar API key (required)
+- **Qdrant Database**: Cloud or local instance
+- **Ollama**: For local embeddings (optional - can be changed to API)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ValueRollerCoaster/ValueRollerCoaster.git
+cd ValueRollerCoaster
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your API keys
+
+# Run the application
+streamlit run app.py
+```
+
+### First Steps
+
+1. **Configure your company** and define value components
+2. **Enter a prospect's website URL** in the Persona Generator
+3. **Review the generated persona** and value alignment matrix
+4. **Use insights** to prepare for better conversations
+
+> 📚 **For detailed setup instructions, see [Deployment Guide](docs/IT/DEPLOYMENT_GUIDE.md)**
+
+---
+
+## 📚 Documentation
+
+### For Your Department
+
+Choose the guide that fits your role:
+
+#### 👔 [For Sales Teams](docs/SALES/FOR_SALES_TEAMS.md)
+- **Quick Introduction**: [FOR_SALES_TEAMS.md](docs/SALES/FOR_SALES_TEAMS.md)
+- **Complete Guide**: [SALES_COMPLETE_GUIDE.md](docs/SALES/SALES_COMPLETE_GUIDE.md)
+
+**Focus**: Living company values through sales conversations. This is a helpful tool that supports your work—not a replacement for your sales skills.
+
+#### 👥 [For HR Teams](docs/HR/FOR_HR_TEAMS.md)
+- **Quick Introduction**: [FOR_HR_TEAMS.md](docs/HR/FOR_HR_TEAMS.md)
+- **Complete Guide**: [HR_COMPLETE_GUIDE.md](docs/HR/HR_COMPLETE_GUIDE.md)
+
+**Focus**: Helping coworkers live company values through internal integration. **Not for recruitment**—for helping employees understand and apply company values.
+
+#### 💻 [For IT Teams](docs/IT/FOR_IT_TEAMS.md)
+- **Quick Introduction**: [FOR_IT_TEAMS.md](docs/IT/FOR_IT_TEAMS.md)
+- **Complete Guide**: [IT_COMPLETE_GUIDE.md](docs/IT/IT_COMPLETE_GUIDE.md)
+- **Technical Documentation**: [README_TECHNICAL.md](docs/IT/README_TECHNICAL.md)
+
+**Focus**: Enabling coworkers to live values through technology. **Open source, low cost** (only API tokens), demonstrates IT as value-adding department.
+
+### Technical & Deployment
+
+- **[Deployment Guide](docs/IT/DEPLOYMENT_GUIDE.md)**: Complete deployment instructions for all scenarios
+- **[Deployment Quick Reference](docs/IT/DEPLOYMENT_QUICK_REFERENCE.md)**: Quick decision guide and commands
+- **[Technical Documentation](docs/IT/README_TECHNICAL.md)**: System architecture, API documentation, development guide
+
+### Additional Resources
+
+- **[Persona Generation Prompts](docs/Usage/ALL_PERSONA_GENERATION_PROMPTS.md)**: All prompts used in persona generation
+- **[Admin Guide](docs/Usage/Admin/ADMIN_GUIDE.md)**: Administrator guide
+- **[Token Limits Guide](docs/IT/TOKEN_LIMITS_GUIDE.md)**: Understanding API usage and costs
+- **[Philosophy & Vision](docs/PHILOSOPHY.md)**: The story behind Value Rollercoaster
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
+
+- Code of Conduct
+- How to contribute
+- Development setup
+- Pull request process
+- Coding standards
+
+**First time contributing?** Check out our [good first issues](https://github.com/ValueRollerCoaster/ValueRollerCoaster/labels/good%20first%20issue) to get started.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [Streamlit](https://streamlit.io/)
+- Powered by Google Gemini, OpenAI ChatGPT, and Perplexity Sonar
+- Vector database powered by [Qdrant](https://qdrant.tech/)
+
+---
+
+<div align="center">
+
+**Help your coworkers live company values through practical AI-powered value alignment**
+
+[⬆ Back to Top](#-value-rollercoaster)
+
+Made with ❤️ by RS
+
+</div>

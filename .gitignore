@@ -1,0 +1,33 @@
+# Ignore directories and files
+logs/
+to_merge/
+venv/
+deep_analysis_results/
+pipeline_logs/
+app/_pycache_/
+app/eurostat_temp/
+app/eurostat_final/
+app/scripts/data/
+
+# Environment variables (never commit these!)
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
