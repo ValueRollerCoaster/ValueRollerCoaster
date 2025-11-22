@@ -17,7 +17,7 @@
 
 ## 📖 What is Value Rollercoaster?
 
-**Value Rollercoaster** is an AI-powered B2B platform that transforms a potential customer's website into a comprehensive **Strategic Sales Playbook**. By analyzing company websites using advanced AI models (Google Gemini + ChatGPT), the platform generates detailed buyer personas, identifies value alignment opportunities, and provides evidence-based insights that empower sales and marketing teams to have more intelligent, effective conversations.
+**Value Rollercoaster** is an AI-powered B2B platform that transforms a potential customer's website into a comprehensive **Strategic Sales Playbook Help**. By analyzing company websites using advanced AI models (Google Gemini + ChatGPT), the platform generates detailed buyer personas, identifies value alignment opportunities, and provides evidence-based insights that empower sales and marketing teams to have more intelligent, effective conversations.
 
 ### 🎯 Core Purpose
 
@@ -52,7 +52,6 @@ The platform addresses a critical challenge in B2B sales: **understanding your p
 - Dynamic market intelligence powered by web search
 
 ### ⚡ **Optimized Performance**
-- **25-40% faster** persona generation (5-8 minutes vs 8-12 minutes)
 - Intelligent parallelization while maintaining quality
 - Rate-limited API management for reliable operation
 
@@ -92,7 +91,6 @@ The platform addresses a critical challenge in B2B sales: **understanding your p
 - Country-level economic trend analysis
 
 ### 🔐 **Flexible Authentication**
-- **Single-user mode**: No authentication required
 - **Multi-user mode**: Full user management and data isolation
 - Automatic data migration support
 

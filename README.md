@@ -36,13 +36,13 @@
 
 ### The Problem It Solves
 
-Most organizations have values—on the wall, in handbooks, on websites. But when you're in a sales call, talking to a customer, or making a decision, **could those values be more helpful?**
+Most organizations have values—on the wall, in handbooks, on websites. But when you're working, talking to customers, or making decisions, **could those values help you see how your work creates customer value?**
 
-Value Rollercoaster transforms abstract values into:
-- **Tools for understanding customers** better
-- **Tools for having better conversations** with prospects
-- **Tools for seeing how your work creates value**
-- **Tools for connecting what you do** to what customers need
+Value Rollercoaster solves this through a core transformation process:
+- **Individual perspectives** → Each employee interprets values from their role
+- **AI transformation** → Converts diverse inputs into customer-focused benefits
+- **Customer value visibility** → Everyone sees how their work creates customer value
+- **Practical applications** → Use transformed values for better customer conversations and prospect understanding
 
 ### 💼 Organizational Benefits
 
@@ -71,7 +71,31 @@ Stand out by showing prospects exactly how your values match their needs. The va
 
 ### How It Works
 
-The platform uses **three AI models working together** (Google Gemini, OpenAI ChatGPT, and Perplexity Sonar) with quality gates to analyze company websites and match them with your organization's value components. The result: **better prospect understanding** and a practical example of using values + AI to create value.
+#### The Core Transformation: From Individual Input to Customer Value
+
+**This is the heart of Value Rollercoaster.** Every employee interprets company values differently—and that's a strength. The platform transforms these diverse perspectives into a unified understanding of customer value.
+
+**The Core Process:**
+
+1. **Individual Input**: Each employee fills in value components based on their role and perspective
+   - Sales sees "Innovation" as new solutions for customers
+   - R&D sees it as cutting-edge research  
+   - IT sees it as technical excellence
+   - Customer support sees it as better service tools
+
+2. **AI Transformation**: Using your company's background (from admin settings) and **three AI models working together** (Google Gemini, OpenAI ChatGPT, and Perplexity Sonar), the platform transforms each input into **customer-focused benefits**
+
+3. **Customer Value Visibility**: Every employee sees how their work creates value for customers—connecting their daily tasks to customer success
+
+**Why This Matters:**
+
+- **Everyone Contributes to Sales**: Even employees not directly in sales see how their work drives customer value and company success
+- **Unified Customer Focus**: Different perspectives become a cohesive understanding of what customers need
+- **Essential for Survival**: This alignment helps your company compete and succeed in the market
+
+#### Practical Application: Persona Generation
+
+Once your value components are defined (90% completion required), the platform uses them to analyze prospect websites and generate buyer personas. This demonstrates the practical power of your transformed values—showing exactly how your offerings match customer needs.
 
 > **Note:** This is a helpful tool that supports your work—not a solution for everything. You still need your expertise, relationships, and judgment. This tool enhances your process but doesn't replace it.
 
@@ -147,11 +171,12 @@ The platform organizes your company values into a structured framework with **4 
 ```
 
 **How It Works:**
-- **Define Components**: Fill in value components across all 4 categories
-- **AI Enhancement**: AI automatically generates customer-focused benefits from your inputs
+- **Define Components**: Each employee fills in value components based on their role and perspective
+- **AI Transformation**: AI automatically transforms your inputs into customer-focused benefits using your company's background context
+- **See Customer Value**: Every employee sees how their work creates value for customers
 - **Customize Importance**: Adjust weights and ratings to reflect your priorities
-- **90% Completion Required**: For buyer persona generation
-- **Match with Prospects**: These components are matched against prospect needs during persona generation
+- **90% Completion Required**: For using transformed values in practical applications like persona generation
+- **Match with Prospects**: Once transformed, these customer-focused components are matched against prospect needs during persona generation
 
 ### 🔄 Complete Workflow
 
@@ -177,10 +202,11 @@ The platform transforms a prospect's website into actionable insights through a 
 │  │              │  │               │  │              │     │
 │  └──────────────┘  └──────────────┘  └──────────────┘     │
 │  ┌──────────────┐                                          │
-│  │ After Sales  │  • Fill all categories                   │
-│  │    Value     │  • AI generates customer benefits        │
-│  └──────────────┘  • Adjust importance                     │
-│                    • Save (90% completion required)        │
+│  │ After Sales  │  • Each employee fills components        │
+│  │    Value     │  • AI transforms to customer benefits   │
+│  └──────────────┘  • Everyone sees their value contribution│
+│                    • Adjust importance & save             │
+│                                                             │
 └──────────────────────┬──────────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────────┐
@@ -238,7 +264,7 @@ The platform transforms a prospect's website into actionable insights through a 
 
 **Workflow Phases:**
 - **Phase 1 (Admin)**: Company Profile → AI Framework → Company Website setup
-- **Phase 2 (All Users)**: Define value components across 4 categories → AI generates benefits → Adjust importance → Save (90% required)
+- **Phase 2 (All Users)**: Each employee defines value components from their perspective → AI transforms to customer benefits → Everyone sees their value contribution → Adjust importance → Save
 - **Phase 3-7**: Persona generation with 7-step AI analysis and 9 quality checkpoints
 
 ---
@@ -250,7 +276,7 @@ The platform transforms a prospect's website into actionable insights through a 
 <td width="50%">
 
 ### 🎯 Value Components System
-Define your organization's values across 4 categories (Technical, Business, Strategic, After Sales) with customizable components that reflect how different departments interpret values.
+Define your organization's values across 4 categories (Technical, Business, Strategic, After Sales). Each employee interprets values from their role, and AI transforms these diverse perspectives into unified customer-focused benefits—making everyone see how their work creates customer value.
 
 ### 🤖 AI-Powered Persona Generation
 Analyze prospect websites and match them with your values. Generate comprehensive buyer personas in 5-8 minutes with evidence-based insights.
@@ -340,10 +366,10 @@ streamlit run app.py
 
 ### First Steps
 
-1. **Configure your company** and define value components
-2. **Enter a prospect's website URL** in the Persona Generator
-3. **Review the generated persona** and value alignment matrix
-4. **Use insights** to prepare for better conversations
+1. **Configure your company** (admin setup - one-time)
+2. **Define value components** - Each employee fills in components from their perspective
+3. **See customer benefits** - AI transforms your inputs into customer-focused value
+4. **Use transformed values** - Generate personas, align with prospects, have better conversations
 
 > 📚 **For detailed setup instructions, see [Deployment Guide](docs/IT/DEPLOYMENT_GUIDE.md)**
 
