@@ -17,17 +17,34 @@
 
 ## 📖 What is Value Rollercoaster?
 
-**Value Rollercoaster** is an AI-powered B2B platform that transforms a potential customer's website into a comprehensive **Strategic Sales Playbook Help**. By analyzing company websites using advanced AI models (Google Gemini + ChatGPT), the platform generates detailed buyer personas, identifies value alignment opportunities, and provides evidence-based insights that empower sales and marketing teams to have more intelligent, effective conversations.
+**Value Rollercoaster** is an open-source platform that helps organizations **transform company values into actionable tools** used in daily work. The platform uses AI to help employees see how their work creates customer value, and provides practical tools for better customer conversations and prospect understanding.
 
 ### 🎯 Core Purpose
 
-The platform addresses a critical challenge in B2B sales: **understanding your prospect's needs and aligning your value propositions accordingly**. Instead of generic pitches, sales teams get:
+The platform addresses a fundamental challenge: **making company values tangible and actionable**—not abstract concepts on a wall, but tools people use in their work. Through a core transformation process:
 
-- **Deep customer insights** extracted from company websites
-- **Personalized value alignment** matching your offerings to their needs
-- **Evidence-based rationale** for every recommendation
-- **Market intelligence** powered by real economic data
-- **Actionable playbooks** ready for sales conversations
+- **Individual perspectives** → Each employee interprets values from their role
+- **AI transformation** → Converts diverse inputs into customer-focused benefits
+- **Customer value visibility** → Everyone sees how their work creates customer value
+- **Practical applications** → Use transformed values for better customer conversations and prospect understanding
+
+### What This Tool Is
+
+- **A helpful tool** that supports your work and enhances your process
+- **A way to live company values** by making them tangible and actionable
+- **An AI-powered assistant** that demonstrates practical AI usage
+- **A research tool** that saves time and provides insights for prospect preparation
+- **A starting point** for deeper conversations based on value alignment
+
+### What This Tool Isn't
+
+- **Not a magic solution** that guarantees sales success or closes deals automatically
+- **Not a replacement for relationship building**—you still need to build trust and rapport
+- **Not a substitute for sales experience and judgment**—your expertise is irreplaceable
+- **Not a replacement for understanding your product/service deeply**—you still need product knowledge
+- **Not a solution for everything**—it's one tool in your toolkit, not the entire toolkit
+
+**Realistic Expectations**: This tool helps with preparation, enhances conversations, and supports work—but success still requires your expertise, relationships, and judgment. The tool enhances your process; it doesn't replace it.
 
 ---
 
@@ -130,18 +147,23 @@ The platform addresses a critical challenge in B2B sales: **understanding your p
    export QDRANT_URL="your-qdrant-url"          # If using cloud Qdrant
    ```
 
-4. **Choose your entry point**
+4. **Entry point**
 
-   **Option A: Single-User Mode (No Authentication)**
-   ```bash
-   streamlit run app/streamlit_app.py
-   ```
-
-   **Option B: Multi-User Mode (Authentication Required)**
+   **Multi-User Mode (Authentication Required)**
    ```bash
    streamlit run run_auth_app.py
    ```
    Default credentials: `default_user` / `default`
+
+   **User Account Creation**
+   
+   Every user can easily create their own account directly from the login page:
+   - **No email required**: Simple username and password creation
+   - **No verification needed**: Instant account activation
+   - **Self-service**: Users create accounts themselves without admin intervention
+   - **Quick setup**: Just choose a username and password, then start using the platform
+   
+   This makes onboarding simple and fast—employees can create accounts and start contributing to value components immediately.
 
 ### First-Time Setup
 
