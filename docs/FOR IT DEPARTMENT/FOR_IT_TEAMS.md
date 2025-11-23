@@ -90,8 +90,8 @@ Get a clear alignment matrix showing:
 - **No vendor lock-in**: IT maintains full control
 
 **Low Cost:**
-- **No licensing fees**: Unlike enterprise tools ($50,000-$200,000+ annually)
-- **Only API token costs**: Pay only for what you use (~$100-$500/month)
+- **No licensing fees**: Unlike enterprise tools 
+- **Only API token costs**: Pay only for what you use 
 - **Predictable costs**: Transparent, scalable pricing
 - **90%+ cost savings**: Compared to expensive enterprise alternatives
 

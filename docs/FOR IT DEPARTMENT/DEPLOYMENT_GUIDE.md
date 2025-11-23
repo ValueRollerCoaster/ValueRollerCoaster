@@ -176,10 +176,6 @@ ollama pull mistral
 
 ### 6. Run the Application
 
-**Single-User Mode:**
-```bash
-streamlit run app/streamlit_app.py
-```
 
 **Multi-User Mode (with Authentication):**
 ```bash

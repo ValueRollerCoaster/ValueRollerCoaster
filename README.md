@@ -500,7 +500,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Help your coworkers live company values through practical AI-powered value alignment**
 
-[⬆ Back to Top](#🎢-value-rollercoaster)
+[⬆ Back to Top](#-value-rollercoaster)
 
 Made with ❤️ by RS
 

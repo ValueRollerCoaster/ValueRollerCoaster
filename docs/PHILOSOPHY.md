@@ -44,7 +44,7 @@ When you ask different departments what "Innovation" means, you get different an
 
 **This isn't a problem—it's a strength.** Different perspectives make values richer and more applicable. Most tools focus on a single interpretation, but there's an opportunity to capture and leverage all these different perspectives.
 
-Value Rollercoaster uses a structured framework (4 categories: Technical, Business, Strategic, After Sales) to capture these diverse perspectives and transform them into unified customer value. [Learn more about the value components structure](../Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md).
+Value Rollercoaster uses a structured framework (4 categories: Technical, Business, Strategic, After Sales) to capture these diverse perspectives and transform them into unified customer value. [Learn more about the value components structure](Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md).
 
 ### Everyone Is Selling (Even If They Don't Know It)
 
@@ -65,7 +65,7 @@ Building on the foundation of existing values, I want to make them **tools you u
 
 I also want to help you see how different departments interpret the same value, and use those different perspectives to create richer customer conversations.
 
-The platform organizes these diverse interpretations into a structured framework that covers the complete customer journey—from technical evaluation to ongoing support. [See how the value components structure works](../Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md).
+The platform organizes these diverse interpretations into a structured framework that covers the complete customer journey—from technical evaluation to ongoing support. [See how the value components structure works](Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md).
 
 ## What This App Is (And Isn't)
 
@@ -130,8 +130,8 @@ If this resonates with you, I'd love your help making it better.
 
 ## Learn More
 
-- **[Value Components Structure Overview](../Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md)** - Understand the 4-category framework and how it captures diverse perspectives
-- **[Main README](../../README.md)** - Complete platform documentation and quick start guide
+- **[Value Components Structure Overview](Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md)** - Understand the 4-category framework and how it captures diverse perspectives
+- **[Main README](../README.md)** - Complete platform documentation and quick start guide
 
 ---
 
