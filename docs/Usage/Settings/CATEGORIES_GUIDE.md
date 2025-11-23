@@ -308,7 +308,7 @@ If you need help customizing the structure:
 
 **Remember**: The structure is a starting point, not a limitation. Customize it to reflect how your organization creates and delivers value to customers.
 
-[Back to How It Works](How%20it%20works.md) • [Back to Main README](../../../README.md)
+[Back to How It Works](HOW_IT_WORKS.md) • [Back to Main README](../../../README.md)
 
 </div>
 

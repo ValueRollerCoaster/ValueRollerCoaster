@@ -20,13 +20,13 @@
 ## 📖 Table of Contents
 
 - [What is Value Rollercoaster?](#-what-is-value-rollercoaster)
-- [Organizational Benefits](#organizational-benefits)
 - [Key Features](#-key-features)
 - [Why Value Rollercoaster?](#-why-value-rollercoaster)
 - [Quick Start](#-quick-start)
 - [Documentation](#-documentation)
 - [Contributing](#-contributing)
 - [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
