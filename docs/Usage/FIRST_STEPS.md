@@ -338,15 +338,15 @@ Now that you've generated your first persona, here's what to do next:
 
 #### For Your Department
 
-- **[Sales Guide](../../SALES/FOR_SALES_TEAMS.md)**: Sales-specific guidance
-- **[HR Guide](../../HR/FOR_HR_TEAMS.md)**: HR-specific guidance
-- **[IT Guide](../../IT/FOR_IT_TEAMS.md)**: IT-specific guidance
+- **[Sales Guide](../../FOR%20SALES%20DEPARTMENT/FOR_SALES_TEAMS.md)**: Sales-specific guidance
+- **[HR Guide](../../FOR%20HR%20DEPARTMENT/FOR_HR_TEAMS.md)**: HR-specific guidance
+- **[IT Guide](../../FOR%20IT%20DEPARTMENT/FOR_IT_TEAMS.md)**: IT-specific guidance
 
 #### Learn More
 
 - **[Persona Generation Prompts](ALL_PERSONA_GENERATION_PROMPTS.md)**: All prompts used in persona generation
-- **[Token Limits Guide](../../IT/TOKEN_LIMITS_GUIDE.md)**: Understanding API costs
-- **[Technical Documentation](../../IT/README_TECHNICAL.md)**: System architecture
+- **[Token Limits Guide](../../FOR%20IT%20DEPARTMENT/TOKEN_LIMITS_GUIDE.md)**: Understanding API costs
+- **[Technical Documentation](../../FOR%20IT%20DEPARTMENT/README_TECHNICAL.md)**: System architecture
 
 ---
 

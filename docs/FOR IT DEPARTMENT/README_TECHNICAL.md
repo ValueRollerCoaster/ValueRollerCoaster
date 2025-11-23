@@ -959,7 +959,7 @@ export DEBUG_DATABASE_OPERATIONS=true
 - **Main README**: [README.md](../../README.md)
 - **Persona Generation Prompts**: [ALL_PERSONA_GENERATION_PROMPTS.md](../Usage/ALL_PERSONA_GENERATION_PROMPTS.md)
 - **Deployment Guide**: [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
-- **Deployment Quick Reference**: [DEPLOYMENT_QUICK_REFERENCE.md](DEPLOYMENT_QUICK_REFERENCE.md)
+- **Token Limits Guide**: [TOKEN_LIMITS_GUIDE.md](TOKEN_LIMITS_GUIDE.md)
 
 ### External Resources
 

@@ -448,8 +448,8 @@ These differences are by design—Streamlit prioritizes rapid development and Py
 
 ## Need More Help?
 
-- **Department Guides**: See [Sales](../../SALES/FOR_SALES_TEAMS.md), [HR](../../HR/FOR_HR_TEAMS.md), or [IT](../../IT/FOR_IT_TEAMS.md) guides
-- **Technical Help**: Check [Technical Documentation](../../IT/README_TECHNICAL.md)
+- **Department Guides**: See [Sales](../../FOR%20SALES%20DEPARTMENT/FOR_SALES_TEAMS.md), [HR](../../FOR%20HR%20DEPARTMENT/FOR_HR_TEAMS.md), or [IT](../../FOR%20IT%20DEPARTMENT/FOR_IT_TEAMS.md) guides
+- **Technical Help**: Check [Technical Documentation](../../FOR%20IT%20DEPARTMENT/README_TECHNICAL.md)
 - **Admin Help**: See [Admin Guide](../Admin/ADMIN_GUIDE.md)
 
 ---

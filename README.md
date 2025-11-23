@@ -11,7 +11,7 @@
 
 **Help your coworkers live company values through practical AI-powered value alignment**
 
-[Quick Start](#-quick-start) • [Documentation](#-documentation) • [Features](#-key-features) • [Contributing](#-contributing)
+[Quick Start](#-quick-start) • [For Your Department](#-for-your-department) • [Documentation](#-documentation) • [Features](#-key-features) • [Contributing](#-contributing)
 
 </div>
 
@@ -20,6 +20,8 @@
 ## 📖 Table of Contents
 
 - [What is Value Rollercoaster?](#-what-is-value-rollercoaster)
+- [For Your Department](#-for-your-department)
+- [Value Components Structure](#-value-components-structure)
 - [Key Features](#-key-features)
 - [Why Value Rollercoaster?](#-why-value-rollercoaster)
 - [Quick Start](#-quick-start)
@@ -108,6 +110,55 @@ Once your value components are defined (90% completion required), the platform u
 *Company Value Overview showing the basic structure*
 
 </div>
+
+---
+
+## 👥 For Your Department
+
+**Not sure where to start?** Choose your department for a tailored introduction:
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 👑 Executive Leadership
+
+**[Get Started →](docs/FOR%20EXECUTIVE%20LEADERSHIP/FOR_EXECUTIVE_LEADERSHIP.md)**
+
+<small>Strategic advantages & ROI maximization</small>
+
+</td>
+<td width="25%" align="center">
+
+### 👔 Sales Teams
+
+**[Get Started →](docs/FOR%20SALES%20DEPARTMENT/FOR_SALES_TEAMS.md)**
+
+<small>Better conversations & value alignment</small>
+
+</td>
+<td width="25%" align="center">
+
+### 👥 HR Teams
+
+**[Get Started →](docs/FOR%20HR%20DEPARTMENT/FOR_HR_TEAMS.md)**
+
+<small>Values integration & employee engagement</small>
+
+</td>
+<td width="25%" align="center">
+
+### 💻 IT Teams
+
+**[Get Started →](docs/FOR%20IT%20DEPARTMENT/FOR_IT_TEAMS.md)**
+
+<small>Deployment & technical setup</small>
+
+</td>
+</tr>
+</table>
+
+---
 
 ### 🏗️ Value Components Structure
 
@@ -295,7 +346,7 @@ See exactly how your values match prospect needs with match scores and evidence.
 - 🔒 **Secure**: Deploy on your infrastructure with full control
 - 🎨 **Customizable**: Adapt to your organization's specific needs
   - **Value Structure**: The 4-category framework is based on large B2B production company experience, but you can modify categories, subcategories, and components to match your industry or business model
-  - **Full Flexibility**: Change the structure in `app/categories.py` to reflect your organization's unique value framework
+  - **Full Flexibility**: Change the structure in `app/categories.py` to reflect your organization's unique value framework. Learn more: [Value Components Overview](docs/Usage/Settings/VALUE_COMPONENTS_OVERVIEW.md) | [Categories Customization Guide](docs/Usage/Settings/CATEGORIES_GUIDE.md)
 
 ---
 
@@ -375,9 +426,9 @@ streamlit run run_auth_app.py
 
 ## 📚 Documentation
 
-### For Your Department
+### Detailed Department Guides
 
-Choose the guide that fits your role:
+Choose the guide that fits your role for comprehensive information:
 
 #### 👑 [For Executive Leadership](docs/FOR%20EXECUTIVE%20LEADERSHIP/FOR_EXECUTIVE_LEADERSHIP.md)
 - **Quick Introduction**: [FOR_EXECUTIVE_LEADERSHIP.md](docs/FOR%20EXECUTIVE%20LEADERSHIP/FOR_EXECUTIVE_LEADERSHIP.md)
@@ -449,7 +500,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Help your coworkers live company values through practical AI-powered value alignment**
 
-[⬆ Back to Top](#-value-rollercoaster)
+[⬆ Back to Top](#🎢-value-rollercoaster)
 
 Made with ❤️ by RS
 

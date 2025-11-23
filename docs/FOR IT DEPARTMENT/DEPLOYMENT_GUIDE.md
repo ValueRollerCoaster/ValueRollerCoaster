@@ -211,11 +211,10 @@ Access the application at `http://localhost:8501`
 
 ### Additional Resources
 
-- **[Deployment Quick Reference](DEPLOYMENT_QUICK_REFERENCE.md)**: Quick decision guide and commands
 - **[Technical Documentation](README_TECHNICAL.md)**: Detailed system architecture and configuration
 - **[Token Limits Guide](TOKEN_LIMITS_GUIDE.md)**: Understanding API usage and costs
 
 ---
 
-*For detailed deployment scenarios, configuration options, and troubleshooting, see the [Technical Documentation](README_TECHNICAL.md) and [Deployment Quick Reference](DEPLOYMENT_QUICK_REFERENCE.md).*
+*For detailed deployment scenarios, configuration options, and troubleshooting, see the [Technical Documentation](README_TECHNICAL.md).*
 
